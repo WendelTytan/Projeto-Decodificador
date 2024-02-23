@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Crypt</title>
+        <link rel="stylesheet" type="text/css" href="css.css">
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    </head>
+
+    <header>
+        <div id="header">
+            <p>Cabeçalho</p>    
+        </div>
+    </header>
+    
+    <body>
+        <div id="caixa-centro" class="caixa-centro">
+            <div id="caixa-esquerda">
+
+                <textarea id="entrada" name="entrada" autofocus="true" class="entrada" required="true" placeholder="Digite Seu Texto"></textarea>
+
+                <div id="alerta" class="alerta">
+                    <img src="img/Vector.png" class="exclam"/>
+                    <label for="placeholder" id="placeholder">Apenas letras minúsculas e sem acento.</label>
+                    <br>
+                </div>
+
+                <div id="botoes" class="botoes">
+                    <button type="button" id="cript" class="botao" onclick="criptografar()">Criptografar</button> 
+                    <button type="button" id="descript" class="botao" onclick="descriptografar()">Descriptografar</button> 
+                </div>
+            </div>
+
+            <div id="retangulo" class="retangulo">
+                <div id="oculto" class="oculto">
+                    <textarea id="saida" disabled="true"></textarea>
+                </div>
+
+                <div id="revelado" class="revelado imagem">
+                    <img src="img/img.jpg"/>
+                </div>
+
+                <div id="revelado1" class="revelado imagem">
+                    <img src="img/img2.png"/>
+                </div>
+            </div>
+            
+        </div>
+    
+        <script src="js.js"></script>
+    </body>
+    
+    <footer>
+        <div id="footer"> 
+            <p>Rodapé</p>
+        </div>
+    </footer>
+    
+</html>
