@@ -78,3 +78,12 @@ function descriptografarTexto(textoCriptografado) {
 function removerAcentos(texto) {
     return texto.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
 }
+
+function copiarTexto() {
+    var textarea = document.getElementById("saida");
+    textarea.select();
+    navigator.clipboard.writeText(textarea.value).then(function() {
+    }, function(err) {
+        console.error('Erro ao copiar texto: ', err);
+    });
+}
