@@ -1,37 +1,11 @@
 /* (min-width: 1440) and (min-height: 1024) */
 @media screen and (max-width: 1440px) and (max-height: 1024px) and (min-width: 1439px) and (min-height: 1022px) {
 
-    /* html {
-        height: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        display: block;
-        align-items: center;
-        justify-content: center;
-    } */
-
-    /*body, html,.y,header,footer {
-        background-color:#F3F5FC;
-        margin: 0 auto;
-        padding: 0;
-
-        height: 100%;
-        height: 100%;
-        margin: 0;
-        
-        display: grid;
-        align-items: stretch;
-        justify-content: center;
-    }*/
-
     body, html {
         background-color:#F3F5FC;
         margin: 0 auto;
         padding: 0;
         
-        /* display: flex;
-        flex-direction: column; */
         display: grid;
         align-items: center;
         justify-content: center;
@@ -45,8 +19,6 @@
 
     .retangulo {
         background: #FFFFFF;
-        /*position: absolute;*/
-
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -58,10 +30,6 @@
         width: 50%;
         height: 100%;
 
-        /*width: 400px;
-        height: 944px;
-        left: 1000px;
-        top: 40px;*/
     }
 
 
@@ -73,15 +41,15 @@
     #caixa-esquerda textarea {
         flex: 1;
         width: 97%;
-        height: 82%;/* altura desejada */
+        height: 82%;
         box-sizing: border-box;
 
-        border: none; /* Remove a borda */
-        outline: none; /* Remove o contorno quando focado */
-        resize: none; /* Impede o redimensionamento */
+        border: none;
+        outline: none;
+        resize: none;
         background-color: transparent;
         
-        color: #0A3871; /* Define a cor do placeholder */
+        color: #0A3871;
         font-style: bold;
         font-family: Inter;
         font-size: 32px;
@@ -95,7 +63,7 @@
     }
 
     #caixa-esquerda textarea::placeholder {
-        color: #0A3871; /* Define a cor do placeholder */
+        color: #0A3871;
         font-style: bold;
         font-family: Inter;
         font-size: 32px;
@@ -107,8 +75,8 @@
     }
 
     #oculto textarea {
-        text-align: left; /* Alinha o texto à esquerda */
-        vertical-align: top; /* Alinha o texto ao topo */
+        text-align: left;
+        vertical-align: top;
 
         padding-left: 5px;
         padding-right: 5px;
@@ -119,7 +87,7 @@
         flex: 1;
         box-sizing: border-box;
 
-        color:#495057; /* Define a cor do placeholder */
+        color:#495057;
         font-style: bold;
         font-family: Inter;
         font-size: 24px;
@@ -128,9 +96,9 @@
         letter-spacing: 0em;
         
 
-        border: none; /* Remove a borda */
-        outline: none; /* Remove o contorno quando focado */
-        resize: none; /* Impede o redimensionamento */
+        border: none;
+        outline: none;
+        resize: none;
         background-color: transparent;
     }
 
@@ -143,31 +111,11 @@
 
     .oculto {
         display:none;
-        text-align: left; /* Alinha o texto à esquerda */
-        vertical-align: top; /* Alinha o texto ao topo */
+        text-align: left;
+        vertical-align: top;
     }
 
-    /*.revelado textarea { /*como essas funções são as mesmas do outro, dá para juntar
-        border: none; /* Remove a borda 
-        outline: none; /* Remove o contorno quando focado 
-        resize: none; /* Impede o redimensionamento 
-        background-color: transparent; /* Torna o fundo transparente */
-        /*color: transparent; daria para usar esses efeitos para ele
-        sumir e aparecer ao inves de deletar a classe
-        font-size: 0;
-
-        flex: 1;
-        width: 95%;
-        height: 88%; altura desejada
-        box-sizing: border-box;
-
-    }*/
-
-
     .caixa-centro { 
-        /*aparentemente ficando perfeito no meu*/
-        /* engraçado que se eu só tirar isso ele fica vertical,
-        o que é quase o que eu vou precisar fazer nas outras configs de tela */
         display: flex;
         width: 1440px;
         height: 1024px;
@@ -179,16 +127,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        /*height: 7%;/* altura desejada */
-        /*box-sizing: border-box;*/
-
-        /*display: flex;*/
-        /*flex-direction: row;*/
-        /*align-items: flex-start;*/
         padding: 0px;
         gap: 24px;
 
-        /*position: absolute;*/
         width: 680px;
         height: 67px;
         left: 240px;
@@ -232,8 +173,8 @@
     }
 
     #cript:hover {
-        background-color: #11498d; /* Nova cor de fundo ao passar o mouse */
-        color: #c3c2d4; /* Nova cor do texto ao passar o mouse */
+        background-color: #11498d;
+        color: #c3c2d4;
     }
 
     #descript {
@@ -257,14 +198,12 @@
     }
 
     #descript:hover {
-        background-color: #bcc4cf; /* Nova cor de fundo ao passar o mouse */
-        color: #175096; /* Nova cor do texto ao passar o mouse */
+        background-color: #bcc4cf;
+        color: #175096;
     }
 
 
     #placeholder {
-        /*display: flex;
-        flex-direction: row;*/
 
         padding: 0px;
         gap: 8px;
@@ -272,8 +211,6 @@
         color: #495057;
         opacity: 0.8;
         
-        
-        /*position: absolute;*/
         width: 252px;
         height: 18px;
         left: 240px;
@@ -283,7 +220,6 @@
         order: 0;
         flex-grow: 0;
 
-        /*position: absolute;*/
         left: 0%;
         right: 0%;
         top: 0%;
@@ -302,7 +238,7 @@
     .exclam {
         width: 16px;
         height: 16px;
-        /*position: absolute;*/
+
         align-items: center;
         vertical-align: middle;
 
@@ -310,12 +246,10 @@
         right: 0%;
         top: 0%;
         bottom: 0%;
-        /*background: #495057;*/
 
     }
 
     .alerta {
-        /* padding: 4px; */
         align-items: center;
         vertical-align: middle;
     }
@@ -338,37 +272,11 @@
 /* (min-width: 1366) and (min-height: 615) */
 @media screen and (max-width: 1366px) and (max-height: 615px) and (min-width: 1365px) and (min-height: 614px) {
 
-    /* html {
-        height: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        display: block;
-        align-items: center;
-        justify-content: center;
-    } */
-
-    /*body, html,.y,header,footer {
-        background-color:#F3F5FC;
-        margin: 0 auto;
-        padding: 0;
-
-        height: 100%;
-        height: 100%;
-        margin: 0;
-        
-        display: grid;
-        align-items: stretch;
-        justify-content: center;
-    }*/
-
     body, html {
         background-color:#F3F5FC;
         margin: 0 auto;
         padding: 0;
         
-        /* display: flex;
-        flex-direction: column; */
         display: grid;
         align-items: center;
         justify-content: center;
@@ -382,7 +290,6 @@
 
     .retangulo {
         background: #FFFFFF;
-        /*position: absolute;*/
 
         display: flex;
         flex-direction: column;
@@ -395,10 +302,6 @@
         width: 50%;
         height: 100%;
 
-        /*width: 400px;
-        height: 944px;
-        left: 1000px;
-        top: 40px;*/
     }
 
 
@@ -410,15 +313,15 @@
     #caixa-esquerda textarea {
         flex: 1;
         width: 97%;
-        height: 82%;/* altura desejada */
+        height: 82%;
         box-sizing: border-box;
 
-        border: none; /* Remove a borda */
-        outline: none; /* Remove o contorno quando focado */
-        resize: none; /* Impede o redimensionamento */
+        border: none;
+        outline: none;
+        resize: none;
         background-color: transparent;
         
-        color: #0A3871; /* Define a cor do placeholder */
+        color: #0A3871;
         font-style: bold;
         font-family: Inter;
         font-size: 32px;
@@ -432,7 +335,7 @@
     }
 
     #caixa-esquerda textarea::placeholder {
-        color: #0A3871; /* Define a cor do placeholder */
+        color: #0A3871;
         font-style: bold;
         font-family: Inter;
         font-size: 32px;
@@ -444,8 +347,8 @@
     }
 
     #oculto textarea {
-        text-align: left; /* Alinha o texto à esquerda */
-        vertical-align: top; /* Alinha o texto ao topo */
+        text-align: left;
+        vertical-align: top;
 
         padding-left: 5px;
         padding-right: 5px;
@@ -456,7 +359,7 @@
         flex: 1;
         box-sizing: border-box;
 
-        color:#495057; /* Define a cor do placeholder */
+        color:#495057;
         font-style: bold;
         font-family: Inter;
         font-size: 24px;
@@ -465,9 +368,9 @@
         letter-spacing: 0em;
         
 
-        border: none; /* Remove a borda */
-        outline: none; /* Remove o contorno quando focado */
-        resize: none; /* Impede o redimensionamento */
+        border: none;
+        outline: none;
+        resize: none;
         background-color: transparent;
     }
 
@@ -480,31 +383,17 @@
 
     .oculto {
         display:none;
-        text-align: left; /* Alinha o texto à esquerda */
-        vertical-align: top; /* Alinha o texto ao topo */
+        text-align: left;
+        vertical-align: top;
     }
 
-    /*.revelado textarea { /*como essas funções são as mesmas do outro, dá para juntar
-        border: none; /* Remove a borda 
-        outline: none; /* Remove o contorno quando focado 
-        resize: none; /* Impede o redimensionamento 
-        background-color: transparent; /* Torna o fundo transparente */
-        /*color: transparent; daria para usar esses efeitos para ele
-        sumir e aparecer ao inves de deletar a classe
-        font-size: 0;
-
-        flex: 1;
-        width: 95%;
-        height: 88%; altura desejada
-        box-sizing: border-box;
-
-    }*/
+   
+       
 
 
     .caixa-centro { 
-        /*aparentemente ficando perfeito no meu*/
-        /* engraçado que se eu só tirar isso ele fica vertical,
-        o que é quase o que eu vou precisar fazer nas outras configs de tela */
+       
+       
         display: flex;
         width: 1024px;
         height: 500px;
@@ -516,16 +405,16 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        /*height: 7%;/* altura desejada */
-        /*box-sizing: border-box;*/
+       
+       
 
-        /*display: flex;*/
-        /*flex-direction: row;*/
-        /*align-items: flex-start;*/
+       
+       
+       
         padding: 0px;
         gap: 24px;
 
-        /*position: absolute;*/
+       
         width: 680px;
         height: 67px;
         left: 240px;
@@ -569,8 +458,8 @@
     }
 
     #cript:hover {
-        background-color: #11498d; /* Nova cor de fundo ao passar o mouse */
-        color: #c3c2d4; /* Nova cor do texto ao passar o mouse */
+        background-color: #11498d;
+        color: #c3c2d4;
     }
 
     #descript {
@@ -594,14 +483,13 @@
     }
 
     #descript:hover {
-        background-color: #bcc4cf; /* Nova cor de fundo ao passar o mouse */
-        color: #175096; /* Nova cor do texto ao passar o mouse */
+        background-color: #bcc4cf;
+        color: #175096;
     }
 
 
     #placeholder {
-        /*display: flex;
-        flex-direction: row;*/
+       
 
         padding: 0px;
         gap: 8px;
@@ -610,7 +498,7 @@
         opacity: 0.8;
         
         
-        /*position: absolute;*/
+       
         width: 252px;
         height: 18px;
         left: 240px;
@@ -620,7 +508,7 @@
         order: 0;
         flex-grow: 0;
 
-        /*position: absolute;*/
+       
         left: 0%;
         right: 0%;
         top: 0%;
@@ -639,7 +527,7 @@
     .exclam {
         width: 16px;
         height: 16px;
-        /*position: absolute;*/
+       
         align-items: center;
         vertical-align: middle;
 
@@ -647,12 +535,12 @@
         right: 0%;
         top: 0%;
         bottom: 0%;
-        /*background: #495057;*/
+       
 
     }
 
     .alerta {
-        /* padding: 4px; */
+       
         align-items: center;
         vertical-align: middle;
     }
@@ -678,39 +566,16 @@
   
 
 
-    /* html {
-    height: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    display: block;
-    align-items: center;
-    justify-content: center;
-    } */
+   
 
-    /*body, html,.y,header,footer {
-        background-color:#F3F5FC;
-        margin: 0 auto;
-        padding: 0;
-
-        height: 100%;
-        height: 100%;
-        margin: 0;
-        
-        display: grid;
-        align-items: stretch;
-        justify-content: center;
-    }*/
+   
 
     body, html {
         background-color:#F3F5FC;
         margin: 0 auto;
         padding: 0;
         
-        /* display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center; */
+       
         width: 100%;
         height: 100%;
         
@@ -719,9 +584,8 @@
     }
 
     .caixa-centro { 
-        /*aparentemente ficando perfeito no meu*/
-        /* engraçado que se eu só tirar isso ele fica vertical,
-        o que é quase o que eu vou precisar fazer nas outras configs de tela */
+       
+       
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -734,7 +598,7 @@
 
     .retangulo {
         background: #FFFFFF;
-        /* background: red; */
+       
         position: relative;
 
         display: flex;
@@ -750,17 +614,14 @@
         width: 90%;
         height: 50%;
         margin-top: 30px;
-        /* margin-bottom: 40px; */
+       
 
-        /* width: 400px;
-        height: 944px; */
-        /* left: 1000px;
-        top: 40px; */
+       
+       
     }
 
     .retangulo img {
-        /* max-width:200px;
-        max-height:150px; */
+       
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -772,25 +633,14 @@
         box-sizing: border-box;
     }
 
-    /* .imagem {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        box-sizing: border-box;
-    } */
+   
 
     .entrada {
         justify-content: center;
         align-items: center;
         margin: 0 auto;
         box-sizing: border-box;
-        /* width: 100%;
-        height: 100%; */
+       
 
     }
 
@@ -811,12 +661,12 @@
         height: 82%;/* altura desejada */
         box-sizing: border-box;
 
-        border: none; /* Remove a borda */
-        outline: none; /* Remove o contorno quando focado */
-        resize: none; /* Impede o redimensionamento */
+        border: none;
+        outline: none;
+        resize: none;
         background-color: transparent;
         
-        color: #0A3871; /* Define a cor do placeholder */
+        color: #0A3871;
         font-style: bold;
         font-family: Inter;
         font-size: 32px;
@@ -830,7 +680,7 @@
     }
 
     #caixa-esquerda textarea::placeholder {
-        color: #0A3871; /* Define a cor do placeholder */
+        color: #0A3871;
         font-style: bold;
         font-family: Inter;
         font-size: 32px;
@@ -845,29 +695,23 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        /*height: 7%;/* altura desejada */
+       
         box-sizing: border-box;
 
-        /*display: flex;*/
-        /*flex-direction: row;*/
-        /*align-items: flex-start;*/
+       
+       
+       
         padding: 0px;
         gap: 12px;
 
-        /*position: absolute;*/
-        /* width: 680px;
-        height: 67px;
-        left: 240px;
-        top: 885px; */
+       
+       
 
         box-sizing: border-box;
     }
 
     #caixa-esquerda button {
-        /* display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center; */
+       
         padding: 24px;
         gap: 8px;
 
@@ -898,8 +742,8 @@
     }
 
     #cript:hover {
-        background-color: #11498d; /* Nova cor de fundo ao passar o mouse */
-        color: #c3c2d4; /* Nova cor do texto ao passar o mouse */
+        background-color: #11498d;
+        color: #c3c2d4;
     }
 
     #descript {
@@ -923,12 +767,12 @@
     }
 
     #descript:hover {
-        background-color: #bcc4cf; /* Nova cor de fundo ao passar o mouse */
-        color: #175096; /* Nova cor do texto ao passar o mouse */
+        background-color: #bcc4cf;
+        color: #175096;
     }
 
     .alerta {
-        /* padding: 4px; */
+       
         align-items: center;
         vertical-align: middle;
         padding-bottom: 10px;
@@ -938,7 +782,7 @@
     .exclam {
         width: 16px;
         height: 16px;
-        /*position: absolute;*/
+       
         align-items: center;
         vertical-align: middle;
 
@@ -946,13 +790,12 @@
         right: 0%;
         top: 0%;
         bottom: 0%;
-        /*background: #495057;*/
+       
 
     }
 
     #placeholder {
-        /*display: flex;
-        flex-direction: row;*/
+       
 
         padding: 0px;
         gap: 8px;
@@ -961,7 +804,7 @@
         opacity: 0.8;
         
         
-        /*position: absolute;*/
+       
         width: 252px;
         height: 18px;
         left: 240px;
@@ -971,7 +814,7 @@
         order: 0;
         flex-grow: 0;
 
-        /*position: absolute;*/
+       
         left: 0%;
         right: 0%;
         top: 0%;
@@ -996,13 +839,13 @@
 
     .oculto {
         display:none;
-        text-align: left; /* Alinha o texto à esquerda */
-        vertical-align: top; /* Alinha o texto ao topo */
+        text-align: left;
+        vertical-align: top;
     }
 
     #oculto textarea {
-        text-align: left; /* Alinha o texto à esquerda */
-        vertical-align: top; /* Alinha o texto ao topo */
+        text-align: left;
+        vertical-align: top;
 
         padding-left: 5px;
         padding-right: 5px;
@@ -1014,7 +857,7 @@
         box-sizing: border-box;
         object-fit: cover;
 
-        color:#495057; /* Define a cor do placeholder */
+        color:#495057;
         font-style: bold;
         font-family: Inter;
         font-size: 24px;
@@ -1023,27 +866,14 @@
         letter-spacing: 0em;
         
 
-        border: none; /* Remove a borda */
-        outline: none; /* Remove o contorno quando focado */
-        resize: none; /* Impede o redimensionamento */
+        border: none;
+        outline: none;
+        resize: none;
         background-color: transparent;
     }
 
-    /*.revelado textarea { /*como essas funções são as mesmas do outro, dá para juntar
-        border: none; /* Remove a borda 
-        outline: none; /* Remove o contorno quando focado 
-        resize: none; /* Impede o redimensionamento 
-        background-color: transparent; /* Torna o fundo transparente */
-        /*color: transparent; daria para usar esses efeitos para ele
-        sumir e aparecer ao inves de deletar a classe
-        font-size: 0;
-
-        flex: 1;
-        width: 95%;
-        height: 88%; altura desejada
-        box-sizing: border-box;
-
-    }*/
+   
+       
 }
 
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -1058,39 +888,16 @@
   
 
 
-    /* html {
-    height: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    display: block;
-    align-items: center;
-    justify-content: center;
-    } */
+   
 
-    /*body, html,.y,header,footer {
-        background-color:#F3F5FC;
-        margin: 0 auto;
-        padding: 0;
-
-        height: 100%;
-        height: 100%;
-        margin: 0;
-        
-        display: grid;
-        align-items: stretch;
-        justify-content: center;
-    }*/
+   
 
     body, html {
         background-color:#F3F5FC;
         margin: 0 auto;
         padding: 0;
         
-        /* display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center; */
+       
         width: 100%;
         height: 100%;
         
@@ -1099,9 +906,8 @@
     }
 
     .caixa-centro { 
-        /*aparentemente ficando perfeito no meu*/
-        /* engraçado que se eu só tirar isso ele fica vertical,
-        o que é quase o que eu vou precisar fazer nas outras configs de tela */
+       
+       
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1114,7 +920,7 @@
 
     .retangulo {
         background: #FFFFFF;
-        /* background: red; */
+       
         position: relative;
 
         display: flex;
@@ -1130,17 +936,14 @@
         width: 90%;
         height: 50%;
         margin-top: 150px;
-        /* margin-bottom: 40px; */
+       
 
-        /* width: 400px;
-        height: 944px; */
-        /* left: 1000px;
-        top: 40px; */
+       
+       
     }
 
     .retangulo img {
-        /* max-width:200px;
-        max-height:150px; */
+       
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -1152,30 +955,19 @@
         box-sizing: border-box;
     }
 
-    /* .imagem {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        box-sizing: border-box;
-    } */
+   
 
     .entrada {
         justify-content: center;
         align-items: center;
         margin: 0 auto;
         box-sizing: border-box;
-        /* width: 100%;
-        height: 100%; */
+       
 
     }
 
     #caixa-esquerda {
-        /* width: 97%; */
+       
         height: 800px;
     }
 
@@ -1190,12 +982,12 @@
         height: 82%;/* altura desejada */
         box-sizing: border-box;
 
-        border: none; /* Remove a borda */
-        outline: none; /* Remove o contorno quando focado */
-        resize: none; /* Impede o redimensionamento */
+        border: none;
+        outline: none;
+        resize: none;
         background-color: transparent;
         
-        color: #0A3871; /* Define a cor do placeholder */
+        color: #0A3871;
         font-style: bold;
         font-family: Inter;
         font-size: 32px;
@@ -1209,7 +1001,7 @@
     }
 
     #caixa-esquerda textarea::placeholder {
-        color: #0A3871; /* Define a cor do placeholder */
+        color: #0A3871;
         font-style: bold;
         font-family: Inter;
         font-size: 32px;
@@ -1224,29 +1016,23 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        /*height: 7%;/* altura desejada */
+       
         box-sizing: border-box;
 
-        /*display: flex;*/
-        /*flex-direction: row;*/
-        /*align-items: flex-start;*/
+       
+       
+       
         padding: 0px;
         gap: 12px;
 
-        /*position: absolute;*/
-        /* width: 680px;
-        height: 67px;
-        left: 240px;
-        top: 885px; */
+       
+       
 
         box-sizing: border-box;
     }
 
     #caixa-esquerda button {
-        /* display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center; */
+       
         padding: 24px;
         gap: 8px;
 
@@ -1277,8 +1063,8 @@
     }
 
     #cript:hover {
-        background-color: #11498d; /* Nova cor de fundo ao passar o mouse */
-        color: #c3c2d4; /* Nova cor do texto ao passar o mouse */
+        background-color: #11498d;
+        color: #c3c2d4;
     }
 
     #descript {
@@ -1302,12 +1088,12 @@
     }
 
     #descript:hover {
-        background-color: #bcc4cf; /* Nova cor de fundo ao passar o mouse */
-        color: #175096; /* Nova cor do texto ao passar o mouse */
+        background-color: #bcc4cf;
+        color: #175096;
     }
 
     .alerta {
-        /* padding: 4px; */
+       
         align-items: center;
         vertical-align: middle;
         padding-bottom: 10px;
@@ -1317,7 +1103,7 @@
     .exclam {
         width: 16px;
         height: 16px;
-        /*position: absolute;*/
+       
         align-items: center;
         vertical-align: middle;
 
@@ -1325,13 +1111,12 @@
         right: 0%;
         top: 0%;
         bottom: 0%;
-        /*background: #495057;*/
+       
 
     }
 
     #placeholder {
-        /*display: flex;
-        flex-direction: row;*/
+       
 
         padding: 0px;
         gap: 8px;
@@ -1340,7 +1125,7 @@
         opacity: 0.8;
         
         
-        /*position: absolute;*/
+       
         width: 252px;
         height: 18px;
         left: 240px;
@@ -1350,7 +1135,7 @@
         order: 0;
         flex-grow: 0;
 
-        /*position: absolute;*/
+       
         left: 0%;
         right: 0%;
         top: 0%;
@@ -1375,13 +1160,13 @@
 
     .oculto {
         display:none;
-        text-align: left; /* Alinha o texto à esquerda */
-        vertical-align: top; /* Alinha o texto ao topo */
+        text-align: left;
+        vertical-align: top;
     }
 
     #oculto textarea {
-        text-align: left; /* Alinha o texto à esquerda */
-        vertical-align: top; /* Alinha o texto ao topo */
+        text-align: left;
+        vertical-align: top;
 
         padding-left: 5px;
         padding-right: 5px;
@@ -1393,7 +1178,7 @@
         box-sizing: border-box;
         object-fit: cover;
 
-        color:#495057; /* Define a cor do placeholder */
+        color:#495057;
         font-style: bold;
         font-family: Inter;
         font-size: 24px;
@@ -1402,25 +1187,14 @@
         letter-spacing: 0em;
         
 
-        border: none; /* Remove a borda */
-        outline: none; /* Remove o contorno quando focado */
-        resize: none; /* Impede o redimensionamento */
+        border: none;
+        outline: none;
+        resize: none;
         background-color: transparent;
     }
 
-    /*.revelado textarea { /*como essas funções são as mesmas do outro, dá para juntar
-        border: none; /* Remove a borda 
-        outline: none; /* Remove o contorno quando focado 
-        resize: none; /* Impede o redimensionamento 
-        background-color: transparent; /* Torna o fundo transparente */
-        /*color: transparent; daria para usar esses efeitos para ele
-        sumir e aparecer ao inves de deletar a classe
-        font-size: 0;
-
-        flex: 1;
-        width: 95%;
-        height: 88%; altura desejada
-        box-sizing: border-box;
-
-    }*/
+   
+       
 }
+
+/* a minha tela 360/629 */
