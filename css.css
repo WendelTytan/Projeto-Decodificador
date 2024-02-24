@@ -1194,3 +1194,7 @@
     }
 
 }
+
+header, footer {
+    display:none
+}
