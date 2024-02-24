@@ -29,7 +29,6 @@
 
         width: 50%;
         height: 100%;
-
     }
 
 
@@ -59,7 +58,6 @@
         line-height: 150%;
 
         cursor: url('/img/text_select.gif'), auto;
-
     }
 
     #caixa-esquerda textarea::placeholder {
@@ -71,7 +69,6 @@
         line-height: 48px;
         letter-spacing: 0em;
         line-height: 150%;
-
     }
 
     #oculto textarea {
@@ -95,7 +92,6 @@
         line-height: 36px;
         letter-spacing: 0em;
         
-
         border: none;
         outline: none;
         resize: none;
@@ -146,8 +142,7 @@
         gap: 8px;
 
         width: 328px;
-        height: 67px;
-        
+        height: 67px; 
     }
 
     #cript {
@@ -169,7 +164,6 @@
 
         cursor: url('/img/link_select.gif'), auto;
         transition: background-color 0.3s, color 0.3s;
-
     }
 
     #cript:hover {
@@ -246,7 +240,6 @@
         right: 0%;
         top: 0%;
         bottom: 0%;
-
     }
 
     .alerta {
@@ -285,7 +278,6 @@
         height: 100%;
 
         cursor: url('/img/normal_select_fast.gif'), auto;
-
     }
 
     .retangulo {
@@ -301,9 +293,594 @@
 
         width: 50%;
         height: 100%;
+    }
+
+
+    #caixa-esquerda,#footer, #header, #alerta, #botoes, #caixa-centro {
+        border-style: solid;
+        border-width: 1px;
+    }
+
+    #caixa-esquerda textarea {
+        flex: 1;
+        width: 97%;
+        height: 82%;
+        box-sizing: border-box;
+
+        border: none;
+        outline: none;
+        resize: none;
+        background-color: transparent;
+        
+        color: #0A3871;
+        font-style: bold;
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 0em;
+        line-height: 150%;
+
+        cursor: url('/img/text_select.gif'), auto;
+    }
+
+    #caixa-esquerda textarea::placeholder {
+        color: #0A3871;
+        font-style: bold;
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 0em;
+        line-height: 150%;
+    }
+
+    #oculto textarea {
+        text-align: left;
+        vertical-align: top;
+
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+        height: 500px;
+        flex: 1;
+        box-sizing: border-box;
+
+        color:#495057;
+        font-style: bold;
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0em;
+        
+        border: none;
+        outline: none;
+        resize: none;
+        background-color: transparent;
+    }
+
+    .revelado {
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .oculto {
+        display:none;
+        text-align: left;
+        vertical-align: top;
+    }
+
+    .caixa-centro { 
+       
+       
+        display: flex;
+        width: 1024px;
+        height: 500px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .botoes, .botao{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        padding: 0px;
+        gap: 24px;
+
+       
+        width: 680px;
+        height: 67px;
+        left: 240px;
+        top: 885px;
+
+        box-sizing: border-box;
+    }
+
+    #caixa-esquerda button {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+
+        width: 328px;
+        height: 67px;
+    }
+
+    #cript {
+        background: #0A3871;
+        border: 1px solid #D8DFE8;
+
+        border-radius: 24px;
+
+        width: 280px;
+        height: 19px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #FFFFFF;
+
+        cursor: url('/img/link_select.gif'), auto;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    #cript:hover {
+        background-color: #11498d;
+        color: #c3c2d4;
+    }
+
+    #descript {
+        background: #D8DFE8;
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+
+        width: 280px;
+        height: 19px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #0A3871;
+
+        cursor: url('/img/link_select.gif'), auto;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    #descript:hover {
+        background-color: #bcc4cf;
+        color: #175096;
+    }
+
+
+    #placeholder {
+        padding: 0px;
+        gap: 8px;
+        
+        color: #495057;
+        opacity: 0.8;
+       
+        width: 252px;
+        height: 18px;
+        left: 240px;
+        top: 851px;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+       
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+
+        width: 228px;
+        height: 18px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+    }
+
+    .exclam {
+        width: 16px;
+        height: 16px;
+       
+        align-items: center;
+        vertical-align: middle;
+
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+    }
+
+    .alerta {
+        align-items: center;
+        vertical-align: middle;
+    }
+
+    .entrada {
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* (min-width: 768) and (min-height: 1174) */
+@media screen and (max-width: 768px) and (max-height: 1174px) and (min-width: 767px) and (min-height: 1173px) {
+
+    body, html {
+        background-color:#F3F5FC;
+        margin: 0 auto;
+        padding: 0;
+             
+        width: 100%;
+        height: 100%;
+        
+        cursor: url('/img/normal_select_fast.gif'), auto;
 
     }
 
+    .caixa-centro {       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 768px;
+        height: 1174px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .retangulo {
+        background: #FFFFFF;
+       
+        position: relative;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        box-sizing: border-box;
+        
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+
+        width: 90%;
+        height: 50%;
+        margin-top: 30px; 
+    }
+
+    .retangulo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+    }   
+
+    .entrada {
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    #caixa-esquerda {
+        padding-top: 80px;
+        width: 97%;
+        height: 70%;
+    }
+
+    #caixa-esquerda,#footer, #header, #alerta, #botoes, #caixa-centro {
+        border-style: solid;
+        border-width: 1px;
+    }
+
+    #caixa-esquerda textarea {
+        flex: 1;
+        width: 97%;
+        height: 82%;
+        box-sizing: border-box;
+
+        border: none;
+        outline: none;
+        resize: none;
+        background-color: transparent;
+        
+        color: #0A3871;
+        font-style: bold;
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 0em;
+        line-height: 150%;
+
+        cursor: url('/img/text_select.gif'), auto;
+    }
+
+    #caixa-esquerda textarea::placeholder {
+        color: #0A3871;
+        font-style: bold;
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 0em;
+        line-height: 150%;
+    }
+
+    .botoes{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+       
+        box-sizing: border-box;
+ 
+        padding: 0px;
+        gap: 12px;
+
+        box-sizing: border-box;
+    }
+
+    #caixa-esquerda button {
+        padding: 24px;
+        gap: 8px;
+
+        width: 328px;
+        height: 67px;
+    }
+
+    #cript {
+        background: #0A3871;
+        border: 1px solid #D8DFE8;
+
+        border-radius: 24px;
+
+        width: 280px;
+        height: 19px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #FFFFFF;
+
+        cursor: url('/img/link_select.gif'), auto;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    #cript:hover {
+        background-color: #11498d;
+        color: #c3c2d4;
+    }
+
+    #descript {
+        background: #D8DFE8;
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+
+        width: 280px;
+        height: 19px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #0A3871;
+
+        cursor: url('/img/link_select.gif'), auto;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    #descript:hover {
+        background-color: #bcc4cf;
+        color: #175096;
+    }
+
+    .alerta {
+        align-items: center;
+        vertical-align: middle;
+        padding-bottom: 10px;
+        padding-top: 30px;
+    }
+
+    .exclam {
+        width: 16px;
+        height: 16px;
+       
+        align-items: center;
+        vertical-align: middle;
+
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+    }
+
+    #placeholder {
+        padding: 0px;
+        gap: 8px;
+        
+        color: #495057;
+        opacity: 0.8;
+        
+        width: 252px;
+        height: 18px;
+        left: 240px;
+        top: 851px;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+
+        width: 228px;
+        height: 18px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+    }
+
+    .revelado {
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .oculto {
+        display:none;
+        text-align: left;
+        vertical-align: top;
+    }
+
+    #oculto textarea {
+        text-align: left;
+        vertical-align: top;
+
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 295px;
+        height: 379px;
+        flex: 1;
+        box-sizing: border-box;
+        object-fit: cover;
+
+        color:#495057;
+        font-style: bold;
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0em;
+        
+
+        border: none;
+        outline: none;
+        resize: none;
+        background-color: transparent;
+    }
+
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* (min-width: 375) and (min-height: 933) */
+@media screen and (min-width: 375px) and (min-height: 933px) and (max-width: 376px) and (max-height: 934px) {
+
+    body, html {
+        background-color:#F3F5FC;
+        margin: 0 auto;
+        padding: 0;
+         
+        width: 100%;
+        height: 100%;
+        
+        cursor: url('/img/normal_select_fast.gif'), auto;
+
+    }
+
+    .caixa-centro {  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 375px;
+        height: 933px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .retangulo {
+        background: #FFFFFF;
+       
+        position: relative;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        box-sizing: border-box;
+        
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+
+        width: 90%;
+        height: 50%;
+        margin-top: 150px;
+    }
+
+    .retangulo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+
+    .entrada {
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    #caixa-esquerda {
+        height: 800px;
+    }
 
     #caixa-esquerda,#footer, #header, #alerta, #botoes, #caixa-centro {
         border-style: solid;
@@ -343,381 +920,27 @@
         line-height: 48px;
         letter-spacing: 0em;
         line-height: 150%;
-
-    }
-
-    #oculto textarea {
-        text-align: left;
-        vertical-align: top;
-
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        width: 100%;
-        height: 500px;
-        flex: 1;
-        box-sizing: border-box;
-
-        color:#495057;
-        font-style: bold;
-        font-family: Inter;
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 36px;
-        letter-spacing: 0em;
-        
-
-        border: none;
-        outline: none;
-        resize: none;
-        background-color: transparent;
-    }
-
-    .revelado {
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        padding: 0;
-    }
-
-    .oculto {
-        display:none;
-        text-align: left;
-        vertical-align: top;
-    }
-
-   
-       
-
-
-    .caixa-centro { 
-       
-       
-        display: flex;
-        width: 1024px;
-        height: 500px;
-        padding: 0px;
-        box-sizing: border-box;
-    }
-
-    .botoes, .botao{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-       
-       
-
-       
-       
-       
-        padding: 0px;
-        gap: 24px;
-
-       
-        width: 680px;
-        height: 67px;
-        left: 240px;
-        top: 885px;
-
-        box-sizing: border-box;
-    }
-
-    #caixa-esquerda button {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 24px;
-        gap: 8px;
-
-        width: 328px;
-        height: 67px;
-        
-    }
-
-    #cript {
-        background: #0A3871;
-        border: 1px solid #D8DFE8;
-
-        border-radius: 24px;
-
-        width: 280px;
-        height: 19px;
-
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
-        text-align: center;
-        color: #FFFFFF;
-
-        cursor: url('/img/link_select.gif'), auto;
-        transition: background-color 0.3s, color 0.3s;
-
-    }
-
-    #cript:hover {
-        background-color: #11498d;
-        color: #c3c2d4;
-    }
-
-    #descript {
-        background: #D8DFE8;
-        border: 1px solid #0A3871;
-        border-radius: 24px;
-
-        width: 280px;
-        height: 19px;
-
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
-        text-align: center;
-        color: #0A3871;
-
-        cursor: url('/img/link_select.gif'), auto;
-        transition: background-color 0.3s, color 0.3s;
-    }
-
-    #descript:hover {
-        background-color: #bcc4cf;
-        color: #175096;
-    }
-
-
-    #placeholder {
-       
-
-        padding: 0px;
-        gap: 8px;
-        
-        color: #495057;
-        opacity: 0.8;
-        
-        
-       
-        width: 252px;
-        height: 18px;
-        left: 240px;
-        top: 851px;
-
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-
-       
-        left: 0%;
-        right: 0%;
-        top: 0%;
-        bottom: 0%;
-
-        width: 228px;
-        height: 18px;
-        
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 150%;
-    }
-
-    .exclam {
-        width: 16px;
-        height: 16px;
-       
-        align-items: center;
-        vertical-align: middle;
-
-        left: 0%;
-        right: 0%;
-        top: 0%;
-        bottom: 0%;
-       
-
-    }
-
-    .alerta {
-       
-        align-items: center;
-        vertical-align: middle;
-    }
-
-    .entrada {
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        box-sizing: border-box;
-    }
-
-}
-
-/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-
-/* (min-width: 768) and (min-height: 1174) */
-@media screen and (max-width: 768px) and (max-height: 1174px) and (min-width: 767px) and (min-height: 1173px) {
-
-  
-
-
-   
-
-   
-
-    body, html {
-        background-color:#F3F5FC;
-        margin: 0 auto;
-        padding: 0;
-        
-       
-        width: 100%;
-        height: 100%;
-        
-        cursor: url('/img/normal_select_fast.gif'), auto;
-
-    }
-
-    .caixa-centro { 
-       
-       
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 768px;
-        height: 1174px;
-        padding: 0px;
-        box-sizing: border-box;
-    }
-
-    .retangulo {
-        background: #FFFFFF;
-       
-        position: relative;
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 20px;
-        box-sizing: border-box;
-        
-        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-        border-radius: 32px;
-
-        width: 90%;
-        height: 50%;
-        margin-top: 30px;
-       
-
-       
-       
-    }
-
-    .retangulo img {
-       
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        box-sizing: border-box;
-    }
-
-   
-
-    .entrada {
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        box-sizing: border-box;
-       
-
-    }
-
-    #caixa-esquerda {
-        padding-top: 80px;
-        width: 97%;
-        height: 70%;
-    }
-
-    #caixa-esquerda,#footer, #header, #alerta, #botoes, #caixa-centro {
-        border-style: solid;
-        border-width: 1px;
-    }
-
-    #caixa-esquerda textarea {
-        flex: 1;
-        width: 97%;
-        height: 82%;/* altura desejada */
-        box-sizing: border-box;
-
-        border: none;
-        outline: none;
-        resize: none;
-        background-color: transparent;
-        
-        color: #0A3871;
-        font-style: bold;
-        font-family: Inter;
-        font-size: 32px;
-        font-weight: 400;
-        line-height: 48px;
-        letter-spacing: 0em;
-        line-height: 150%;
-
-        cursor: url('/img/text_select.gif'), auto;
-
-    }
-
-    #caixa-esquerda textarea::placeholder {
-        color: #0A3871;
-        font-style: bold;
-        font-family: Inter;
-        font-size: 32px;
-        font-weight: 400;
-        line-height: 48px;
-        letter-spacing: 0em;
-        line-height: 150%;
     }
 
     .botoes{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-       
         box-sizing: border-box;
 
-       
-       
-       
         padding: 0px;
         gap: 12px;
-
-       
-       
 
         box-sizing: border-box;
     }
 
     #caixa-esquerda button {
-       
         padding: 24px;
         gap: 8px;
 
         width: 328px;
         height: 67px;
-        
     }
 
     #cript {
@@ -772,7 +995,6 @@
     }
 
     .alerta {
-       
         align-items: center;
         vertical-align: middle;
         padding-bottom: 10px;
@@ -790,21 +1012,15 @@
         right: 0%;
         top: 0%;
         bottom: 0%;
-       
-
     }
 
     #placeholder {
-       
-
         padding: 0px;
         gap: 8px;
         
         color: #495057;
         opacity: 0.8;
-        
-        
-       
+
         width: 252px;
         height: 18px;
         left: 240px;
@@ -814,7 +1030,6 @@
         order: 0;
         flex-grow: 0;
 
-       
         left: 0%;
         right: 0%;
         top: 0%;
@@ -865,336 +1080,12 @@
         line-height: 36px;
         letter-spacing: 0em;
         
-
         border: none;
         outline: none;
         resize: none;
         background-color: transparent;
     }
 
-   
-       
-}
-
-/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-
-/* (min-width: 375) and (min-height: 933) */
-@media screen and (min-width: 375px) and (min-height: 933px) and (max-width: 376px) and (max-height: 934px) {
-
-  
-
-
-   
-
-   
-
-    body, html {
-        background-color:#F3F5FC;
-        margin: 0 auto;
-        padding: 0;
-        
-       
-        width: 100%;
-        height: 100%;
-        
-        cursor: url('/img/normal_select_fast.gif'), auto;
-
-    }
-
-    .caixa-centro { 
-       
-       
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 375px;
-        height: 933px;
-        padding: 0px;
-        box-sizing: border-box;
-    }
-
-    .retangulo {
-        background: #FFFFFF;
-       
-        position: relative;
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 20px;
-        box-sizing: border-box;
-        
-        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-        border-radius: 32px;
-
-        width: 90%;
-        height: 50%;
-        margin-top: 150px;
-       
-
-       
-       
-    }
-
-    .retangulo img {
-       
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        box-sizing: border-box;
-    }
-
-   
-
-    .entrada {
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        box-sizing: border-box;
-       
-
-    }
-
-    #caixa-esquerda {
-       
-        height: 800px;
-    }
-
-    #caixa-esquerda,#footer, #header, #alerta, #botoes, #caixa-centro {
-        border-style: solid;
-        border-width: 1px;
-    }
-
-    #caixa-esquerda textarea {
-        flex: 1;
-        width: 97%;
-        height: 82%;/* altura desejada */
-        box-sizing: border-box;
-
-        border: none;
-        outline: none;
-        resize: none;
-        background-color: transparent;
-        
-        color: #0A3871;
-        font-style: bold;
-        font-family: Inter;
-        font-size: 32px;
-        font-weight: 400;
-        line-height: 48px;
-        letter-spacing: 0em;
-        line-height: 150%;
-
-        cursor: url('/img/text_select.gif'), auto;
-
-    }
-
-    #caixa-esquerda textarea::placeholder {
-        color: #0A3871;
-        font-style: bold;
-        font-family: Inter;
-        font-size: 32px;
-        font-weight: 400;
-        line-height: 48px;
-        letter-spacing: 0em;
-        line-height: 150%;
-    }
-
-    .botoes{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-       
-        box-sizing: border-box;
-
-       
-       
-       
-        padding: 0px;
-        gap: 12px;
-
-       
-       
-
-        box-sizing: border-box;
-    }
-
-    #caixa-esquerda button {
-       
-        padding: 24px;
-        gap: 8px;
-
-        width: 328px;
-        height: 67px;
-        
-    }
-
-    #cript {
-        background: #0A3871;
-        border: 1px solid #D8DFE8;
-
-        border-radius: 24px;
-
-        width: 280px;
-        height: 19px;
-
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
-        text-align: center;
-        color: #FFFFFF;
-
-        cursor: url('/img/link_select.gif'), auto;
-        transition: background-color 0.3s, color 0.3s;
-    }
-
-    #cript:hover {
-        background-color: #11498d;
-        color: #c3c2d4;
-    }
-
-    #descript {
-        background: #D8DFE8;
-        border: 1px solid #0A3871;
-        border-radius: 24px;
-
-        width: 280px;
-        height: 19px;
-
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
-        text-align: center;
-        color: #0A3871;
-
-        cursor: url('/img/link_select.gif'), auto;
-        transition: background-color 0.3s, color 0.3s;
-    }
-
-    #descript:hover {
-        background-color: #bcc4cf;
-        color: #175096;
-    }
-
-    .alerta {
-       
-        align-items: center;
-        vertical-align: middle;
-        padding-bottom: 10px;
-        padding-top: 30px;
-    }
-
-    .exclam {
-        width: 16px;
-        height: 16px;
-       
-        align-items: center;
-        vertical-align: middle;
-
-        left: 0%;
-        right: 0%;
-        top: 0%;
-        bottom: 0%;
-       
-
-    }
-
-    #placeholder {
-       
-
-        padding: 0px;
-        gap: 8px;
-        
-        color: #495057;
-        opacity: 0.8;
-        
-        
-       
-        width: 252px;
-        height: 18px;
-        left: 240px;
-        top: 851px;
-
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-
-       
-        left: 0%;
-        right: 0%;
-        top: 0%;
-        bottom: 0%;
-
-        width: 228px;
-        height: 18px;
-        
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 150%;
-    }
-
-    .revelado {
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        padding: 0;
-    }
-
-    .oculto {
-        display:none;
-        text-align: left;
-        vertical-align: top;
-    }
-
-    #oculto textarea {
-        text-align: left;
-        vertical-align: top;
-
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        width: 295px;
-        height: 379px;
-        flex: 1;
-        box-sizing: border-box;
-        object-fit: cover;
-
-        color:#495057;
-        font-style: bold;
-        font-family: Inter;
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 36px;
-        letter-spacing: 0em;
-        
-
-        border: none;
-        outline: none;
-        resize: none;
-        background-color: transparent;
-    }
-
-   
-       
 }
 
 /* a minha tela 360/629 */
