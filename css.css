@@ -1,7 +1,7 @@
-@import url("/styles/style-mobile.css") screen and (max-width: 767px);
-@import url("/styles/style-tablet.css") screen and (min-width: 768px) and (max-width: 991px);
-@import url("/styles/style-desktop.css") screen and (min-width: 992px) and (max-width: 1199px);
-@import url("/styles/style-tv.css") screen and (min-width: 1200px);
+@import url("./styles/style-mobile.css") screen and (max-width: 767px);
+@import url("./styles/style-tablet.css") screen and (min-width: 768px) and (max-width: 991px);
+@import url("./style-desktop.css") screen and (min-width: 992px) and (max-width: 1199px);
+@import url("./styles/style-tv.css") screen and (min-width: 1200px);
 
 /* @media screen and (min-width: 1440px) and (min-height: 1024px) {
 
@@ -1203,6 +1203,8 @@
 header, footer {
     display:none
 }
+
+
 
 /*
 Width: 1366, Height: 615

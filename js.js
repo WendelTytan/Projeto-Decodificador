@@ -13,14 +13,12 @@
                     for (let i = 0; i < revelados.length; i++) {
                         revelados[i].classList.remove('oculto');
                     }
-                    console.log("if");
                 } else {
                     ocultoDiv.classList.remove('oculto');
                     const revelados = document.querySelectorAll('.revelado');
                     for (let i = 0; i < revelados.length; i++) {
                         revelados[i].classList.add('oculto');
                     }
-                    console.log("else");
                 }
             }
             
@@ -33,16 +31,13 @@
                         const revelados = document.querySelectorAll('.revelado');
                         for (let i = 0; i < revelados.length; i++) {
                             revelados[i].classList.remove('oculto');
-                        }
-                        console.log("if");
-    
+                        }    
                     } else {
                         ocultoDiv.classList.remove('oculto');
                         const revelados = document.querySelectorAll('.revelado');
                         for (let i = 0; i < revelados.length; i++) {
                             revelados[i].classList.add('oculto');
                         }
-                        console.log("else");
                     }
                 }
 
@@ -53,7 +48,6 @@
                     document.getElementById('revelado1').classList.remove('oculto');
                     document.getElementById('oculto').classList.remove('revelado');
                     ocultoDiv.classList.add('oculto');
-                    console.log("if");
                 }
             });
             
