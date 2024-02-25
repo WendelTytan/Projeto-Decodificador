@@ -1198,3 +1198,15 @@
 header, footer {
     display:none
 }
+
+/*
+@import url("style.mobile.css") screen and (max-width: 767px);
+@import url("style.tablet.css") screen and (min-width: 768px) and (max-width: 991px);
+@import url("style.desktop.css") screen and (min-width: 992px) and (max-width: 1199px);
+@import url ("style.tv.css") screen and (min-width: 1200px);
+
+intervalo pra largura de celular: [1px, 767px], ou seja, @media screen and (max-width: 767px)
+intervalo pra largura de tablet: [768px, 991px], ou seja, @media screen and (min-width: 768px) and (max-width: 991px);
+intervalo pra largura de desktop: [992px, 1199px], ou seja, @media screen and (min-width: 992px) and (max-width: 1199px);
+intervalo pra largura de TVs: [1200px, infinito], ou seja, @media screen and (min-width: 1200px)
+*/
