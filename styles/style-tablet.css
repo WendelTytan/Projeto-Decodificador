@@ -6,7 +6,7 @@ body, html {
     width: 100%; 
     height: 100%;
     
-    cursor: url('./img/normal_select_fast.gif'), auto;
+    cursor: url('./../img/normal_select_fast.gif'), auto;
 
 }
 
@@ -87,7 +87,7 @@ body, html {
     letter-spacing: 0em;
     line-height: 150%;
 
-    cursor: url('./img/text_select.gif'), auto;
+    cursor: url('./../img/text_select.gif'), auto;
 }
 
 #caixa-esquerda textarea::placeholder {
@@ -140,7 +140,7 @@ body, html {
     text-align: center;
     color: #FFFFFF;
 
-    cursor: url('./img/link_select.gif'), auto;
+    cursor: url('./../img/link_select.gif'), auto;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -165,7 +165,7 @@ body, html {
     text-align: center;
     color: #0A3871;
 
-    cursor: url('./img/link_select.gif'), auto;
+    cursor: url('./../img/link_select.gif'), auto;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -292,7 +292,7 @@ body, html {
     text-align: center;
     color: #0A3871;
 
-    cursor: url('./img/link_select.gif'), auto;
+    cursor: url('./../img/link_select.gif'), auto;
     transition: background-color 0.3s, color 0.3s;
 }
 
