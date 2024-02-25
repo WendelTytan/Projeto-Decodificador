@@ -1,4 +1,9 @@
-@media screen and (min-width: 1440px) and (min-height: 1024px) {
+@import url("/styles/style.mobile.css") screen and (max-width: 767px);
+@import url("/styles/style.tablet.css") screen and (min-width: 768px) and (max-width: 991px);
+@import url("/styles/style.desktop.css") screen and (min-width: 992px) and (max-width: 1199px);
+@import url("/styles/style.tv.css") screen and (min-width: 1200px);
+
+/* @media screen and (min-width: 1440px) and (min-height: 1024px) {
 
     body, html {
         background-color:#F3F5FC;
@@ -304,9 +309,9 @@
     }
 
 
-}
+} */
 
-@media screen and (min-width: 1366px) and (min-height: 615px) {
+/* @media screen and (min-width: 1366px) and (min-height: 615px) {
 
     body, html {
         background-color:#F3F5FC;
@@ -591,9 +596,9 @@
         color: #11498d;
     }
 
-}
+} */
 
-@media screen and (min-width: 768px) and (max-height: 1174px) {
+/*@media screen and (min-width: 768px) and (max-height: 1174px) {
 
     body, html {
         background-color:#F3F5FC;
@@ -898,9 +903,9 @@
         color: #11498d;
     }
 
-}
+}*/
 
-@media screen and (min-width: 375px) and (min-height: 933px) {
+/*@media screen and (min-width: 375px) and (min-height: 933px) {
 
     body, html {
         background-color:#F3F5FC;
@@ -1193,7 +1198,7 @@
         color: #11498d;
     }
 
-}
+}*/
 
 header, footer {
     display:none
