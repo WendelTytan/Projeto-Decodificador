@@ -1,9 +1,6 @@
-/*WIP*/
-
 body, html {
     background-color:#F3F5FC;
     margin: 0 auto;
-    /* padding-left: 5%; */
     
     display: grid;
     align-items: center;
