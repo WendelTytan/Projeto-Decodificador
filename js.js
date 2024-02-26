@@ -23,8 +23,9 @@
             }
             
             function descriptografar() {    
-                const textoCriptografado = document.getElementById('saida').value;
-                const textoDescriptografado = descriptografarTexto(textoCriptografado);
+                const textoOriginal = document.getElementById('entrada').value.toLowerCase();
+                const textoLimpo = removerAcentos(textoOriginal);
+                const textoDescriptografado = descriptografarTexto(textoLimpo);
                 document.getElementById('saida').value = textoDescriptografado;
                     if (entradaTextarea.value.trim() === '') {
                         ocultoDiv.classList.add('oculto');

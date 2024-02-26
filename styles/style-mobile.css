@@ -6,7 +6,7 @@ body, html {
     width: 100%;
     height: 100%;
     
-    cursor: url('./../img/normal_select_fast.gif'), auto;
+    cursor: url('./img/normal_select_fast.gif'), auto;
 
 }
 
@@ -16,7 +16,6 @@ body, html {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100%;
     padding: 0px;
     box-sizing: border-box;
 }
@@ -28,7 +27,6 @@ body, html {
 
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     padding: 20px;
     box-sizing: border-box;
@@ -37,8 +35,7 @@ body, html {
     border-radius: 32px;
 
     width: 90%;
-    height: 49%;
-    margin-top: 160px;
+    height: 35%;
 }
 
 .retangulo img {
@@ -70,7 +67,7 @@ body, html {
 #caixa-esquerda textarea {
     flex: 1;
     width: 100%;
-    height: 82%;
+    height: 300px;
     box-sizing: border-box;
 
     border: none;
@@ -87,7 +84,7 @@ body, html {
     letter-spacing: 0em;
     line-height: 150%;
 
-    cursor: url('./../img/text_select.gif'), auto;
+    cursor: url('./img/text_select.gif'), auto;
 
 }
 
@@ -104,7 +101,6 @@ body, html {
 
 .botoes{
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
@@ -119,8 +115,8 @@ body, html {
     padding: 24px;
     gap: 8px;
 
-    width: 328px;
-    height: 67px;
+    width: 50%;
+    height: 5%;
 }
 
 #cript {
@@ -140,7 +136,7 @@ body, html {
     text-align: center;
     color: #FFFFFF;
 
-    cursor: url('./../img/link_select.gif'), auto;
+    cursor: url('./img/link_select.gif'), auto;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -165,7 +161,7 @@ body, html {
     text-align: center;
     color: #0A3871;
 
-    cursor: url('./../img/link_select.gif'), auto;
+    cursor: url('./img/link_select.gif'), auto;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -283,11 +279,17 @@ body, html {
     text-align: center;
     color: #0A3871;
 
-    cursor: url('./../img/link_select.gif'), auto;
+    cursor: url('./img/link_select.gif'), auto;
     transition: background-color 0.3s, color 0.3s;
 }
 
 #copiar:hover {
     background-color: #c3c2d4;
     color: #11498d;
+}
+
+.copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

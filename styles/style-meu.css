@@ -2,21 +2,20 @@ body, html {
     background-color:#F3F5FC;
     margin: 0 auto;
     padding: 0;
-            
-    width: 100%; 
+        
+    width: 100%;
     height: 100%;
     
-    cursor: url('./../img/normal_select_fast.gif'), auto;
+    cursor: url('./img/normal_select_fast.gif'), auto;
 
 }
 
-.caixa-centro {       
+.caixa-centro {  
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100%;
     padding: 0px;
     box-sizing: border-box;
 }
@@ -28,7 +27,7 @@ body, html {
 
     display: flex;
     flex-direction: column;
-    
+    align-items: center;
     justify-content: center;
     padding: 20px;
     box-sizing: border-box;
@@ -38,12 +37,11 @@ body, html {
 
     width: 90%;
     height: 49%;
-    margin-top: 12%; 
-
+    margin-top: 160px;
 }
 
 .retangulo img {
-    width: 80%;
+    width: 100%;
     height: 100%;
     object-fit: cover;
     padding: 0;
@@ -52,7 +50,7 @@ body, html {
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-}   
+}
 
 .entrada {
     justify-content: center;
@@ -62,14 +60,15 @@ body, html {
 }
 
 #caixa-esquerda {
-    padding-top: 7%;
+    height: 100%;
     width: 95%;
-    height: 70%;
+    margin: 2%;
+    margin-top: 7%;
 }
 
 #caixa-esquerda textarea {
     flex: 1;
-    width: 97%;
+    width: 100%;
     height: 82%;
     box-sizing: border-box;
 
@@ -87,7 +86,8 @@ body, html {
     letter-spacing: 0em;
     line-height: 150%;
 
-    cursor: url('./../img/text_select.gif'), auto;
+    cursor: url('./img/text_select.gif'), auto;
+
 }
 
 #caixa-esquerda textarea::placeholder {
@@ -103,10 +103,9 @@ body, html {
 
 .botoes{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    
     box-sizing: border-box;
 
     padding: 0px;
@@ -140,7 +139,7 @@ body, html {
     text-align: center;
     color: #FFFFFF;
 
-    cursor: url('./../img/link_select.gif'), auto;
+    cursor: url('./img/link_select.gif'), auto;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -165,7 +164,7 @@ body, html {
     text-align: center;
     color: #0A3871;
 
-    cursor: url('./../img/link_select.gif'), auto;
+    cursor: url('./img/link_select.gif'), auto;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -200,7 +199,7 @@ body, html {
     
     color: #495057;
     opacity: 0.8;
-    
+
     width: 252px;
     height: 18px;
     left: 240px;
@@ -226,7 +225,6 @@ body, html {
 }
 
 .revelado {
-    display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
@@ -248,7 +246,7 @@ body, html {
     padding-top: 10px;
     padding-bottom: 10px;
     width: 100%;
-    height: 75%;
+    height: 222px;
     flex: 1;
     box-sizing: border-box;
     object-fit: cover;
@@ -261,19 +259,10 @@ body, html {
     line-height: 36px;
     letter-spacing: 0em;
     
-
     border: none;
     outline: none;
     resize: none;
     background-color: transparent;
-}
-
-.copy {
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 #copiar {
@@ -293,7 +282,7 @@ body, html {
     text-align: center;
     color: #0A3871;
 
-    cursor: url('./../img/link_select.gif'), auto;
+    cursor: url('./img/link_select.gif'), auto;
     transition: background-color 0.3s, color 0.3s;
 }
 
