@@ -1,4 +1,4 @@
-@import url("./styles/style-meu.css") screen and (max-width: 400px);
+@import url("./styles/style-small.css") screen and (max-width: 400px);
 @import url("./styles/style-mobile.css") screen and (min-width: 401px) and (max-width: 767px);
 @import url("./styles/style-tablet.css") screen and (min-width: 768px) and (max-width: 991px);
 @import url("./styles/style-desktop.css") screen and (min-width: 992px) and (max-width: 1199px);
