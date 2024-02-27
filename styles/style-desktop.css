@@ -1,8 +1,8 @@
 body, html {
     display: grid;
     align-items: center;
-    justify-content: center;
-    position: absolute;
+    /* justify-content: center;  */
+    position: absolute; /**/
 }
 
 .caixa-centro { 
@@ -75,4 +75,15 @@ body, html {
 
 .copy {
     padding: 1%;
+    width: 80%;
+}
+
+#oculto textarea {
+    object-fit: cover;
+    height: 100%; /**/
+}
+
+#copiar {
+    width: 100%;
+    height: 67px;
 }

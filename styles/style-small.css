@@ -65,4 +65,10 @@
 
 #oculto textarea {
     object-fit: cover;
+    height: 222px; /**/
+}
+
+#copiar {
+    width: 100%; /**/
+    height: 60px; /**/
 }

@@ -2,7 +2,6 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 100%;
 }
 
 .retangulo {
@@ -11,8 +10,8 @@
     box-sizing: border-box;
     border-radius: 32px;
     width: 90%;
-    height: 49%;
-    margin-top: 1%; 
+    height: 50%;
+    margin-top: 15%; 
 }
 
 .retangulo img {
@@ -68,6 +67,12 @@
 
 #oculto textarea {
     object-fit: cover;
+    height: 222px; /**/
+}
+
+#copiar {
+    width: 100%; /**/
+    height: 60px; /**/
 }
 
 .copy {
