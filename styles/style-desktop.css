@@ -1,8 +1,7 @@
 body, html {
     display: grid;
     align-items: center;
-    /* justify-content: center;  */
-    position: absolute; /**/
+    position: absolute;
 }
 
 .caixa-centro { 
@@ -80,7 +79,7 @@ body, html {
 
 #oculto textarea {
     object-fit: cover;
-    height: 100%; /**/
+    height: 100%;
 }
 
 #copiar {

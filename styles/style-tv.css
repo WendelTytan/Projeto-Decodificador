@@ -1,7 +1,6 @@
 body, html {
     display: grid;
     align-items: center;
-    /* justify-content: center; */
     position: absolute;
 }
 
