@@ -1,57 +1,61 @@
-            const entradaTextarea = document.getElementById('entrada');
-            const ocultoDiv = document.getElementById('oculto');
-            const ocultoTextarea = document.getElementById('saida');
+//Este arquivo Javascript tem uma função que faz com que as letras maiusculas e acentos sejam convertidos
+//para suas versões sem acentos e minusculas, assim efetuando a restrição dos mesmos e também criando
+//um acesso suave ao usuário, sem interromper o uso dele com mensagens de alerta
 
-            function criptografar() {
-            const textoOriginal = document.getElementById('entrada').value.toLowerCase();
-            const textoLimpo = removerAcentos(textoOriginal);
-            const textoCriptografado = criptografarTexto(textoLimpo);
-            document.getElementById('saida').value = textoCriptografado;
-                if (entradaTextarea.value.trim() === '') {
-                    ocultoDiv.classList.add('oculto');
-                    const revelados = document.querySelectorAll('.revelado');
-                    for (let i = 0; i < revelados.length; i++) {
-                        revelados[i].classList.remove('oculto');
-                    }
-                } else {
-                    ocultoDiv.classList.remove('oculto');
-                    const revelados = document.querySelectorAll('.revelado');
-                    for (let i = 0; i < revelados.length; i++) {
-                        revelados[i].classList.add('oculto');
-                    }
-                }
-            }
-            
-            function descriptografar() {    
-                const textoOriginal = document.getElementById('entrada').value.toLowerCase();
-                const textoLimpo = removerAcentos(textoOriginal);
-                const textoDescriptografado = descriptografarTexto(textoLimpo);
-                document.getElementById('saida').value = textoDescriptografado;
-                    if (entradaTextarea.value.trim() === '') {
-                        ocultoDiv.classList.add('oculto');
-                        const revelados = document.querySelectorAll('.revelado');
-                        for (let i = 0; i < revelados.length; i++) {
-                            revelados[i].classList.remove('oculto');
-                        }    
-                    } else {
-                        ocultoDiv.classList.remove('oculto');
-                        const revelados = document.querySelectorAll('.revelado');
-                        for (let i = 0; i < revelados.length; i++) {
-                            revelados[i].classList.add('oculto');
-                        }
-                    }
-                }
+const entradaTextarea = document.getElementById('entrada');
+const ocultoDiv = document.getElementById('oculto');
+const ocultoTextarea = document.getElementById('saida');
 
-            entradaTextarea.addEventListener('input', function() {
-                if (entradaTextarea.value.trim() === '') {
-                    ocultoTextarea.value = entradaTextarea.value;
-                    document.getElementById('revelado').classList.remove('oculto');
-                    document.getElementById('revelado1').classList.remove('oculto');
-                    document.getElementById('oculto').classList.remove('revelado');
-                    ocultoDiv.classList.add('oculto');
-                }
-            });
-            
+function criptografar() {
+    const textoOriginal = document.getElementById('entrada').value.toLowerCase();
+    const textoLimpo = removerAcentos(textoOriginal);
+    const textoCriptografado = criptografarTexto(textoLimpo);
+    document.getElementById('saida').value = textoCriptografado;
+    if (entradaTextarea.value.trim() === '') {
+        ocultoDiv.classList.add('oculto');
+        const revelados = document.querySelectorAll('.revelado');
+        for (let i = 0; i < revelados.length; i++) {
+            revelados[i].classList.remove('oculto');
+        }
+    } else {
+        ocultoDiv.classList.remove('oculto');
+        const revelados = document.querySelectorAll('.revelado');
+        for (let i = 0; i < revelados.length; i++) {
+            revelados[i].classList.add('oculto');
+        }
+    }
+}
+
+function descriptografar() {    
+    const textoOriginal = document.getElementById('entrada').value.toLowerCase();
+    const textoLimpo = removerAcentos(textoOriginal);
+    const textoDescriptografado = descriptografarTexto(textoLimpo);
+    document.getElementById('saida').value = textoDescriptografado;
+    if (entradaTextarea.value.trim() === '') {
+        ocultoDiv.classList.add('oculto');
+        const revelados = document.querySelectorAll('.revelado');
+        for (let i = 0; i < revelados.length; i++) {
+            revelados[i].classList.remove('oculto');
+        }    
+    } else {
+        ocultoDiv.classList.remove('oculto');
+        const revelados = document.querySelectorAll('.revelado');
+        for (let i = 0; i < revelados.length; i++) {
+            revelados[i].classList.add('oculto');
+        }
+    }
+}
+
+entradaTextarea.addEventListener('input', function() {
+    if (entradaTextarea.value.trim() === '') {
+        ocultoTextarea.value = entradaTextarea.value;
+        document.getElementById('revelado').classList.remove('oculto');
+        document.getElementById('revelado1').classList.remove('oculto');
+        document.getElementById('oculto').classList.remove('revelado');
+        ocultoDiv.classList.add('oculto');
+    }
+});
+
 function criptografarTexto(texto) {
     texto = texto.replace(/e/g, 'enter');
     texto = texto.replace(/i/g, 'imes');
